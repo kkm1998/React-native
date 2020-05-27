@@ -19,7 +19,8 @@ export default (state = defaultState(), action: any): ITodoListReducer => {
             };
         }
         case actionTypes.DELETE_ELEMENT: {
-            return {                         
+            return {                       
+                ...state,  
                 todoList: state.todoList.filter(elem => elem.id !== action.id)            };
         }
         default: {

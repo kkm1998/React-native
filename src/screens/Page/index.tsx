@@ -4,8 +4,8 @@ import styled from 'styled-components/native';
 import Colors from '../../constans/Colors';
 import Layout from '../../constans/Layout';
 const PageView = styled.View`
-background-color:${Colors.grey};
-margin-top:${Layout.statusBar}px;
+    background-color:${Colors.grey};
+    margin-top:${Layout.statusBar}px;
 `;
 const Banner = styled.Image`
     width: 100%;
@@ -24,14 +24,14 @@ const ImageRight = styled.Image`
     flex:1
 `;
 const CustomText = styled.Text`
-text-align:justify;
-margin-right:10px;
-margin-left:10px;
-flex:1;
+    text-align:justify;
+    margin-right:10px;
+    margin-left:10px;
+    flex:1;
 `;
 
 const CracowView = styled.View`
-flex-direction:row;
+    flex-direction:row;
 `;
 interface IPageProps { }
 

@@ -6,17 +6,17 @@ import Layout from '../../constans/Layout';
 const CircleImage = styled.Image`
     width: 150px;
     height: 150px;
-border-radius:75px;
-margin-left:100px
-margin-top:5px
+    border-radius:75px;
+    margin-left:100px
+    margin-top:5px
 `;
 const CustomText = styled.Text`
-text-align:justify;
-margin:5%;
+    text-align:justify;
+    margin:5%;
 `;
 const CustomView = styled.View`
-background-color:${Colors.khaki};
-margin-top:${Layout.statusBar}px;
+    background-color:${Colors.khaki};
+    margin-top:${Layout.statusBar}px;
 `;
 interface IHomeProps { }
 
